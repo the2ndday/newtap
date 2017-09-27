@@ -1,8 +1,6 @@
-Replaces your New Tab page with minimalistic version that only shows your bookmarks from Bookmarks Bar.
-
-If you have your Gmail bookmarked (including Google Apps mail on your own domain), it also checks for new messages and shows count next to the bookmark name. (To save bandwidth and avoid frequent requests to Gmail, the period of count update is 1 minute).
-
-Chrome Webstore URL: https://chrome.google.com/webstore/detail/boplifegejanbmnjaghedjmnbgckneaf
+Modified from: https://github.com/dchest/minimal-newtab
+- removed gmail count feature
+- typography
 
 
 License
