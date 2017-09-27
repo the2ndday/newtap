@@ -12,8 +12,7 @@
     "newtab": "home.html"
   },
   "permissions": [
-    "bookmarks",
-    "https://mail.google.com/"
+    "bookmarks"
   ],
   "manifest_version": 2
 }
