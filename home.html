@@ -1,6 +1,7 @@
 <html>
  <head>
   <title>New Tab</title>
+  <script src="home.js"></script>
   <style type="text/css">
     html, body {
       height: 100%;
@@ -9,6 +10,8 @@
       font-size: 18px;
       font-family: "GT America", "Helvetica Neue", Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
+      background: #000;
+      color: #fff;
     }
 
     .table {
@@ -34,20 +37,20 @@
         line-height: 1.6em;
         letter-spacing: .05em;
         padding: 0 16px;
-        color: #9ea2a8;
       }
 
     a, a:link, a:visited {
       display: block;
-      color: #30363d;
+      color: #fff;
       text-decoration: none;
       padding: 4px 16px;
+        position: relative;
     }
       a:hover {
-        color: #2179ee;
+        text-decoration: underline;
       }
       a:active {
-        background-color: #f7f7f7;
+        top: 1px;
       }
 
   </style>
@@ -60,7 +63,6 @@
     </ul>
     </div>
   </div>
-   <script src="home.js"></script>
  </body>
 
 </html>
